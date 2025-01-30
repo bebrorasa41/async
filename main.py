@@ -5,7 +5,7 @@ from aiogram.filters import Command
 from aiogram.types import Message
 
 # 🔹 Укажите свой токен от BotFather
-TOKEN = "7523023045:AAHue_1jPpvGD-q4mNwskVKFbgaXA00fcIE"
+TOKEN = "7296881619:AAFVpMkptokWMz34wz757q6BSG3xPbXZgtM"
 
 # 🔹 Укажите API-токен UsersBox
 USERSBOX_API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkX2F0IjoxNzM4MjMwMDczLCJhcHBfaWQiOjE3MzgyMzAwNzN9.tMcpZxg94S9kYvwi8LsWoGxGjmEH0O2qFjhY-wlgIKg"
