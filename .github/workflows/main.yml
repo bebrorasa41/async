@@ -1,0 +1,32 @@
+name: Run Telegram Bot
+
+on:
+  push:
+    branches:
+      - main  # Ветка, в которой будет выполняться действие
+  workflow_dispatch: # Позволяет запускать вручную
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10' # Версия Python
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run bot
+      env:
+        TELEGRAM_API_KEY: ${{ secrets.TELEGRAM_API_KEY }} # Используем секреты для API ключа
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}     # Секрет для ключа Gemini API
+      run: |
+        python main.py
