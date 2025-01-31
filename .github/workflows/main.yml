@@ -29,4 +29,4 @@ jobs:
         TELEGRAM_API_KEY: ${{ secrets.TELEGRAM_API_KEY }} # Используем секреты для API ключа
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}     # Секрет для ключа Gemini API
       run: |
-        python main.py
+        python main-ses.py
