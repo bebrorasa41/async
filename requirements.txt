@@ -1,2 +1,4 @@
+telethon
+rarfile
+py7zr
 aiogram
-requests
