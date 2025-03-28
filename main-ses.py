@@ -15,7 +15,7 @@ import logging
 import re
 import time
 
-# Constants
+# Constantsg
 API_ID = "26519168"
 API_HASH = "16cc9deec2d8f31d01389e3f2eea3574"
 BOT_TOKEN = "8087322831:AAGu112QSLy4C5kEdmSRlP4lP5cXYPwf-KU"
