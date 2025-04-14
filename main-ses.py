@@ -21,7 +21,7 @@ API_HASH = "16cc9deec2d8f31d01389e3f2eea3574"
 BOT_TOKEN = "8087322831:AAGu112QSLy4C5kEdmSRlP4lP5cXYPwf-KU"
 SESSION_FILE = "МистерРобот.session"
 
-# Directories for files
+# Directories for filesр
 TEMP_DIR = "temp_files"
 PROCESSED_DIR = "processed_files"
 
